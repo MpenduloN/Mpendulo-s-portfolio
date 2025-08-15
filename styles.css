@@ -1,0 +1,93 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f7f0f8; /* Light pink background */
+    color: #5a2d77; /* Deep purple text color */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    background-color: #9b59b6; /* Purple header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #d7a7d9; /* Light purple for the nav bar */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #5a2d77; /* Purple links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #9b59b6; /* Hover effect to dark purple */
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+    background-color: #f5e6f7; /* Very light purple background */
+}
+
+/* Section */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #9b59b6; /* Purple section headings */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #5a2d77; /* Purple text */
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #9b59b6; /* Purple footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+/* Button */
+button {
+    background-color: #d7a7d9; /* Light purple button */
+    color: #5a2d77;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9b59b6; /* Hover effect */
+    color: white;
+}
